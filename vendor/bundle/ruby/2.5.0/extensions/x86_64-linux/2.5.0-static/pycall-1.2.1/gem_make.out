@@ -1,0 +1,27 @@
+current directory: /home/kantarow/bokeh/vendor/bundle/ruby/2.5.0/gems/pycall-1.2.1/ext/pycall
+/home/kantarow/.rbenv/versions/2.5.1/bin/ruby -r ./siteconf20190420-4116-8hwjag.rb extconf.rb
+creating Makefile
+
+current directory: /home/kantarow/bokeh/vendor/bundle/ruby/2.5.0/gems/pycall-1.2.1/ext/pycall
+make "DESTDIR=" clean
+
+current directory: /home/kantarow/bokeh/vendor/bundle/ruby/2.5.0/gems/pycall-1.2.1/ext/pycall
+make "DESTDIR="
+compiling gc.c
+compiling libpython.c
+compiling pycall.c
+pycall.c: In function 'pycall_libpython_helpers_m_define_wrapper_method':
+pycall.c:1029:16: warning: variable 'name_sym' set but not used [-Wunused-but-set-variable]
+   VALUE pyptr, name_sym;
+                ^~~~~~~~
+pycall.c: At top level:
+cc1: warning: unrecognized command line option '-Wno-self-assign'
+cc1: warning: unrecognized command line option '-Wno-constant-logical-operand'
+cc1: warning: unrecognized command line option '-Wno-parentheses-equality'
+compiling range.c
+compiling ruby_wrapper.c
+linking shared-object pycall.so
+
+current directory: /home/kantarow/bokeh/vendor/bundle/ruby/2.5.0/gems/pycall-1.2.1/ext/pycall
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 pycall.so ./.gem.20190420-4116-2n497q
